@@ -1,0 +1,44 @@
+/*HEADER */
+.logo {
+    weight: 30px;
+    height: 30px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenitore1 {
+    background-color: #7550FE;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contenitore2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contenitore2 > div {
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+}
+
+#contenitore2 svg {
+    margin-right: 30px;
+}
+
+
+
+
+/* MAIN */
+.imgSpecial {
+    width: 200px;
+}
+
+.contenitoriMain {
+    padding-top: 40px;
+}
