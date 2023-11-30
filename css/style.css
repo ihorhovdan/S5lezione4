@@ -1,44 +1,87 @@
-/*HEADER */
-.logo {
-    weight: 30px;
-    height: 30px
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
+/* HEADER */
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
 }
 
 #contenitore1 {
-    background-color: #7550FE;
+    background-color: rgb(117, 80, 254);
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+}
+
+#contenitore1 p {
+    color: rgb(187, 167, 255);
+}
+
+#contenitore1 > div button:first-of-type{
+    background-color: rgb(26, 203, 152);
+    padding: 10px 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#contenitore1 > div button:last-of-type{
+    background-color: white;
+    padding: 10px 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#contenitore2 svg {
+    background-color: lightsalmon;
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;  
 }
 
 #contenitore2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+    
+    
 }
 
 #contenitore2 > div {
+    margin-bottom: 30px;
+}
+
+.flexContenitore {
     display: flex;
-    margin-right: 40px;
     align-items: center;
 }
 
-#contenitore2 svg {
-    margin-right: 30px;
+.flexContenitore p {
+    line-height: 0.3;
 }
 
+.flexContenitore svg {
+    margin-right: 20px;
+}
 
-
+.flexContenitore p:first-of-type {
+    font-weight: bold;
+}
 
 /* MAIN */
-.imgSpecial {
-    width: 200px;
-}
-
-.contenitoriMain {
-    padding-top: 40px;
+section {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
 }
